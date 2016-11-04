@@ -21,10 +21,6 @@ module.exports = function(grunt) {
           ],
           dest: 'dist/',
         }]
-        // files: {
-        //   'dist/js/perfmatters.min.js': ['src/js/perfmatters.js'],
-        //   'dist/views/js/main.min.js': ['src/views/js/main.js']
-        // }
       }
     },
     cssmin: {
@@ -37,12 +33,7 @@ module.exports = function(grunt) {
             'views/css/*.css'
           ],
           dest: 'dist/',
-          // ext: '.min.css'
         }]
-        // files: {
-        //   'dist/css/app.min.css': ['src/css/*.css',],
-        //   'dist/views/css/pizza.min.css': ['src/views/css/*.css',]
-        // }
       }
     },
     htmlmin: {
@@ -83,11 +74,9 @@ module.exports = function(grunt) {
   // Register default tasks
   grunt.registerTask('build', [
     'clean',
-    // 'useminPrepare',
     'uglify',
     'cssmin',
     'htmlmin',
     'imagemin',
-    // 'usemin'
-  ]);
+    ]);
 }

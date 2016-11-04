@@ -2,9 +2,9 @@
 
 ###How to Run
 
-*Run 'http-server' in frontend-nanodegree-mobile-portfolio\dist.
+*Run `http-server` in frontend-nanodegree-mobile-portfolio\dist.
 
-*Run 'ngrok http 8080'.
+*Run `ngrok http 8080`.
 
 *Visit the url ngrok gives to you.
 
@@ -26,9 +26,9 @@
 
 *Add requestAnimationFrame to updatePositions function.
 
-*In updatePositions function Change function querySelectorAll to getElementsByClassName;Assign 'document.body.scrollTop / 1250' to variable scroll and move variable scroll out of loop.
+*In updatePositions function Change function querySelectorAll to getElementsByClassName;Assign `document.body.scrollTop / 1250` to variable scroll and move variable scroll out of loop.
 
-*Add style 'transform: translateZ(0);backface-visiblity: hidden;' to mover class.
+*Add style `transform: translateZ(0);backface-visiblity: hidden;` to mover class.
 
 *Reduce the number of pizzas to 40.
 
